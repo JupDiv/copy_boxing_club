@@ -1,0 +1,11 @@
+.containerContacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-height: 1301px) and (orientation: portrait) {
+  .containerContacts {
+    height: 1300px;
+  }
+}

@@ -1,0 +1,33 @@
+.html {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1cd6ce;
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #293462;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+    min-height: 795px;
+  }
+}
+
+@media screen and (min-height: 1200px) and (orientation: landscape) {
+  .page {
+    height: 995px;
+    justify-content: center;
+  }
+}

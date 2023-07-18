@@ -1,0 +1,12 @@
+.container {
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 65px;
+  height: 100%;
+}
+
+@media screen and (min-height: 1301px) and (orientation: portrait) {
+  .container {
+    height: 1300px;
+  }
+}
